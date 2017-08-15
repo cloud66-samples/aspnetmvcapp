@@ -6,8 +6,8 @@ build:
       dockerfile: Dockerfile.build
       artifacts:
         - /out
-    deployment:
-      name: deployment
+    publish:
+      name: publish
       dockerfile: Dockerfile.publish
       depends_on:
         - build
