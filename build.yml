@@ -1,0 +1,13 @@
+build:
+  version: 2016-03-14 # version of the build schema.
+  steps:
+    build:
+      name: build
+      dockerfile: Dockerfile_build
+      artifacts:
+        - /out
+    deployment:
+      name: publish
+      dockerfile: Dockerfile
+      depends_on:
+        - build
