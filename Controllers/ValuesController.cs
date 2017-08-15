@@ -13,7 +13,7 @@ namespace aspnet_docker_tutorial.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new string[] { "Cloud66", "Habitus", "NET Core" };
         }
 
         // GET api/values/5
