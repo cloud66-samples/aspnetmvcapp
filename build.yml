@@ -3,11 +3,11 @@ build:
   steps:
     build:
       name: build
-      dockerfile: Dockerfile_build
+      dockerfile: Dockerfile.build
       artifacts:
         - /out
     deployment:
       name: publish
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.publish
       depends_on:
         - build
