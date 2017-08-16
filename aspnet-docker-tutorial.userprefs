@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{ECA00C15-560F-4188-A494-712D1982A2FD}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/ValuesController.cs">
+    <Files>
+      <File FileName="Controllers/ValuesController.cs" Line="23" Column="26" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.aspnet-docker-tutorial PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>
